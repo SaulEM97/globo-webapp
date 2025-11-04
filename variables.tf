@@ -47,4 +47,8 @@ variable "tfe_organization" {
   description = "(Required) The name of the TFE organization where the workspace is located."
 }
 
+variable "playbook_repository" {
+  type        = string
+  description = "(Required) The Git repository URL containing the Ansible playbook for configuring the web application."
+}
 
